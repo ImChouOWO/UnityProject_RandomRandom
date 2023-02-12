@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{FE797197-4B33-DFEF-DACE-D2B03AC9AD71}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c8a7932b-67d6-4947-93af-6ec8f502163b" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="README.md">
+    <Files>
+      <File FileName="Assets/scr/roomScr/generator.cs" />
+      <File FileName="Assets/scr/cameraScr/cameraMovement.cs" Line="28" Column="1" />
+      <File FileName="Assets/scr/roomScr/room.cs" />
+      <File FileName="Assets/scr/roomScr/wall.cs" />
+      <File FileName="Assets/scr/cameraScr/minMapController.cs" />
+      <File FileName="Assets/scr/roomScr/minMapActive.cs" />
+      <File FileName="Assets/scr/playerScr/playerMovement.cs" />
+      <File FileName="README.md" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RandomRandom" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="scr" expanded="True">
+                <Node name="cameraScr" expanded="True" />
+                <Node name="roomScr" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Packages" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+</Properties>
