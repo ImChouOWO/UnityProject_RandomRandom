@@ -1,0 +1,62 @@
+import Foundation
+
+enum MetalEffectFactory {
+    static func makeEffect(
+        for effectType: EffectType
+    ) -> MetalEffect {
+        let renderer: MetalEffect
+
+        switch effectType {
+        case .lightning:
+            renderer = LightningMetalEffect()
+
+        case .fire:
+            renderer = FireMetalEffect()
+
+        case .stardust:
+            renderer = StardustMetalEffect()
+
+        case .wave:
+            renderer = WaveMetalEffect()
+
+        case .thunder:
+            renderer = MoneyMetalEffect()
+
+        case .vortex:
+            renderer = BladeMetalEffect()
+
+        case .dark:
+            renderer = IceShatterMetalEffect()
+
+        case .crimson:
+            renderer = CrimsonLotusMetalEffect()
+
+        case .deathRay:
+            renderer = DeathRayMetalEffect()
+
+        case .emerald:
+            renderer = EmeraldMetalEffect()
+
+        case .inkWash:
+            renderer = InkWashMetalEffect()
+
+        case .spray:
+            renderer = SprayPaintMetalEffect()
+        }
+
+        #if DEBUG
+        print(
+            "[MetalEffectFactory]",
+            effectType.rawValue,
+            "->",
+            String(
+                describing: Swift.type(
+                    of: renderer
+                )
+            )
+        )
+        #endif
+
+        return renderer
+    }
+}
