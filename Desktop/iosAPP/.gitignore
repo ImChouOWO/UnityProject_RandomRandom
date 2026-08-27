@@ -1,0 +1,84 @@
+# =========================
+# Model / Weight files
+# =========================
+
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+*.mlmodel
+*.mlmodelc
+*.coreml
+*.weights
+*.bin
+*.safetensors
+*.ckpt
+*.pb
+*.h5
+*.keras
+
+# Common model directories
+weights/
+weight/
+models/
+model/
+checkpoints/
+checkpoint/
+runs/
+outputs/
+
+# CoreML compiled model folders
+*.mlmodelc/
+
+# =========================
+# Xcode / iOS
+# =========================
+
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcscmblueprint
+
+# Build outputs
+build/
+Build/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# =========================
+# macOS
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+# =========================
+# Environment / Secrets
+# =========================
+
+.env
+.env.*
+*.pem
+*.p12
+*.mobileprovision
